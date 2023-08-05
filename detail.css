@@ -36,6 +36,7 @@ img{
 }
 .img-select{
     display: flex;
+    justify-content: center;
 }
 .img-item{
     margin: 0.3rem;
@@ -3462,7 +3463,17 @@ img{
     .related-products {
     flex-direction: column;
     }
-        
+    .related_prod_h1 {
+      padding-top: 50px;
+    }
+    .img-item img {
+      align-items: center;
+      width: 200px;
+      border: 1px solid #0000;
+    }
+    .card-wrapper { 
+      padding-top: 10px;
+    }
     .product-card {
     width: 80%;
     margin: 20px auto;
